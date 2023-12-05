@@ -1,0 +1,85 @@
+body{
+    margin: 0px 0px;
+    font-family: corbel;
+    background-color: yellowgreen;
+    color: violet;
+}
+
+.container
+{
+    text-align: center;
+    padding: 30px;
+}
+
+label{
+   font-family: corbel;
+}
+
+label.paste_label{
+    size: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+
+label.heading{
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input{
+    left: 10px;
+    width: 450px;
+    margin: 25px 0;
+    padding: 10px 10px;
+    border:2px solid ;
+    border-radius: 30px;
+    background-color: yellowgreen;
+    color: violet;
+    outline: none;
+}
+
+button{
+    left: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1em;
+    color: ivory;
+    background-color:lime;
+    outline: none;
+}
+
+button:hover{
+    color:white;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: translateY(2px);
+}
+
+label.summary_label{
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+textarea{
+    padding: 30px;
+    outline: none;
+    left: 10px;
+    width: 800px;
+    height: 300px;
+    padding: 10px 20px;
+    line-height: 25px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: yellowgreen;
+    color: violet;
+    overflow: auto;
+}
